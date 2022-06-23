@@ -1,0 +1,14 @@
+@use 'base/variables' as v;
+@use 'base/mixins' as m;
+
+.nosotros{
+    h2{
+        margin-top: 4rem;
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+
+    p{
+        text-align: center;
+    }
+}

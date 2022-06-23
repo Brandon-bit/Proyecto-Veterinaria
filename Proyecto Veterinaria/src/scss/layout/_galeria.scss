@@ -1,0 +1,21 @@
+@use 'base/variables' as v;
+@use 'base/mixins' as m;
+
+.galeria{
+    
+    h2{
+        text-align: center;
+        margin-top: 4rem;
+        margin-bottom: 5rem;
+    }
+    
+    .galeria-imagenes{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+
+        @include m.tablet{
+            grid-template-columns: repeat(4, 1fr);
+        }
+    }
+}
